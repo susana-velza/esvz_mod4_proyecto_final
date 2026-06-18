@@ -1,0 +1,22 @@
+# Credenciales
+.env
+
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Dataset (muy pesado)
+datasets/*.csv
+datasets/*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Sistema
+.DS_Store
+Thumbs.db
